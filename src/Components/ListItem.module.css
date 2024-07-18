@@ -1,0 +1,87 @@
+.listItem {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1rem;
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.listItem:first-child {
+  margin-top: 1.5rem;
+}
+
+.listItem p {
+  color: var(--gray-100);
+  flex: 1;
+}
+
+.listItem button {
+  background: transparent;
+  border: none;
+}
+
+.listItemChecked {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1rem;
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.listItemChecked:first-child {
+  margin-top: 1.5rem;
+}
+
+.listItemChecked p {
+  text-decoration: line-through;
+  flex: 1;
+}
+
+.listItemChecked button {
+  background: transparent;
+  border: none;
+}
+
+.check {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.check:hover {
+  color: var(--blue-dark);
+  background: var(--blue-dark20);
+  border-radius: 100%;
+}
+
+.checked {
+  color: var(--gray-100);
+  background: var(--purple-dark);
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.checked:hover {
+  background: var(--purple);
+}
+
+.trash {
+  color: var(--gray-300);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.trash:hover {
+  color: var(--danger);
+  background: var(--gray-400);
+  border-radius: 4px;
+}
